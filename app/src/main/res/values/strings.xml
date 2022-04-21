@@ -87,5 +87,5 @@ By using this application, you accept all responsibility using it and agree that
     <string name="menu_nav_daemon_log">Daemon Log</string>
     <string name="action_filter">Filter…</string>
     <string name="title_license_notices">Licences</string>
-    <string name="title_qs_tile_switch_dc_mode" translatable="false">DimLayer HBM</string>
+    <string name="title_qs_tile_switch_dc_mode" translatable="false">DimLayerHBM</string>
 </resources>
