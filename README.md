@@ -13,3 +13,9 @@ Recommended for OxygenOS users only. ColorOS system already has this feature.
 推荐使用通知栏快速设置。
 
 The notification bar quick setting tile is recommended.
+
+原理 / Implementation: `/sys/kernel/oplus_display/dimlayer_hbm`
+
+The `dimlayer_hbm` mode is set to 1 when in Finger On Display(FOD) mode,
+where the display is set to maximum brightness and an alpha layer is shown on top of the display,
+which is required for the under screen fingerprint camera to work properly (PWM is bad for sampling).
