@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main_home">
+
+    <fragment
+        android:id="@+id/nav_main_home"
+        android:name="cc.ioctl.opdisplaytuner.activity.ui.home.HomeFragment"
+        android:label="@string/menu_fragment_home"
+        tools:layout="@layout/fragment_main_home" />
+
+    <fragment
+        android:id="@+id/nav_main_dump_live"
+        android:name="cc.ioctl.opdisplaytuner.activity.ui.dump.NciLiveDumpFragment"
+        android:label="@string/menu_fragment_dump"
+        tools:layout="@layout/fragment_main_dump" />
+
+    <fragment
+        android:id="@+id/nav_main_daemon_log"
+        android:name="cc.ioctl.opdisplaytuner.activity.ui.log.DaemonLogFragment"
+        android:label="@string/label_daemon_log" />
+
+    <fragment
+        android:id="@+id/nav_main_settings"
+        android:name="cc.ioctl.opdisplaytuner.activity.ui.settings.SettingsFragment"
+        android:label="@string/label_settings" />
+
+</navigation>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name" translatable="false">Display Tuner</string>
+    <string name="nav_header_title" translatable="false">Display Tuner</string>
+    <string name="nav_header_subtitle" translatable="false">Display Panel Feature Controls</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_fragment_home" translatable="false">Home</string>
+    <string name="menu_fragment_dump" translatable="false">HAL Dump</string>
+    <string name="initializing">Initializing…</string>
+    <string name="title_warning">Warning</string>
+    <string name="btn_continue">Continue</string>
+    <string name="checkbox_accept_risk">I\'m aware and accept these risks.</string>
+    <string name="text_warn_app_risk">Display Tuner requires root access to communicate directly with your display driver and this could possibly damage your system and/or your display if used incorrectly.\
+Display Tuner is not responsible for any damages made by using this application. If you are not fully aware of how root works then you probably should not use this application until you are fully aware of the risks.\
+\
+By using Display Tuner, you accept full responsibility of your own usage and accept no damages, claims or monetary value will be given due to misuse. \
+\
+By using this application, you accept all responsibility using it and agree that I am not responsible for any actions you make that has an adverse affect on your device.</string>
+    <string name="action_stop">Stop</string>
+    <string name="ntf_text_req_perm">Requesting for permission…</string>
+    <string name="action_start">Start</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_clear_history_events">Clear</string>
+    <string name="action_save_as">Save as file</string>
+    <string name="github" translatable="false">GitHub</string>
+    <string name="usage_help">Usage Help</string>
+    <string name="detail_info">Detail Information</string>
+    <string name="status">Status</string>
+    <string name="operations">Operations</string>
+    <string name="action_start_daemon">Start Daemon(root)</string>
+    <string name="attach_to_hal_service">Attach to HAL Service</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="status_daemon_not_running">Daemon Not Running</string>
+    <string name="status_general_not_running">Not Running</string>
+    <string name="ui_device_arch_v0s">Device ABI: %s</string>
+    <string name="ui_home_need_start_daemon">Start the daemon process to enable any function.</string>
+    <string name="ui_home_root_is_required">Root access is required.</string>
+    <string name="status_general_running_ok">Running</string>
+    <string name="status_hal_service_attached">HAL Service Attached</string>
+    <string name="status_hal_service_not_attached">HAL Service Not Attached</string>
+    <string name="status_general_not_attached">Not Attached</string>
+    <string name="ui_home_hal_service_not_found">Unable to find HAL service.</string>
+    <string name="ui_home_maybe_service_not_running">Maybe it\'s not running?</string>
+    <string name="ui_home_attach_hal_service_to_work">You musr attach to HAL service before you can use any function.</string>
+    <string name="ui_click_to_attach_hal_service">Click to attach to HAL service.</string>
+    <string name="ui_home_no_operation_needed">No operation required</string>
+    <string name="ui_home_restart_hal_service_if_needed">If your display is not working correctly, you can restart the HAL service.</string>
+    <string name="action_restart_hal_service">Restart HAL Service</string>
+    <string name="ui_home_dialog_title_attach_hal_service">Attach to HAL Service</string>
+    <string name="ui_home_dialog_msg_attach_hal_service">Trying attaching to HAL service, please wait…</string>
+    <string name="ui_home_toast_attach_hal_service_success">Attached to HAL service</string>
+    <string name="ui_home_dialog_msg_attach_hal_service_fail">Failed to attach to HAL service.</string>
+    <string name="ui_toast_not_implemented">Coming soon…</string>
+    <string name="ui_home_hal_service_unknown">HAL service status: unknown</string>
+    <string name="ui_toast_daemon_is_not_running">Daemon is not running.</string>
+    <string name="ui_toast_hal_service_not_attached">HAL service is not attached.</string>
+    <string name="ui_snackbar_action_view_or_jump">View</string>
+    <string name="ui_dialog_error_title">Error</string>
+    <string name="ui_toast_no_data_to_save">No data to save</string>
+    <string name="ui_toast_data_saved">Data saved</string>
+    <string name="ui_toast_operation_canceled">Canceled.</string>
+    <string name="intent_label_view_hal_dump">View HAL Dump</string>
+    <string name="ui_dialog_unable_to_open_file_v0s">Unable to open file: %s</string>
+    <string name="ui_title_main_dump">HAL Dump</string>
+    <string name="action_view_dump_file">View dump file</string>
+    <string name="ui_dialog_title_requesting_root">Requesting root</string>
+    <string name="ui_dialog_msg_body_requesting_root">Please grant root permission</string>
+    <string name="label_nav_main_dump_file">HAL Dump File</string>
+    <string name="action_close">Close</string>
+    <string name="action_submit">Submit</string>
+    <string name="ui_toast_operation_success_v0d">Operation success: %d</string>
+    <string name="ui_dialog_error_message_invalid_input_syntax_v0s">Invalid input: %s</string>
+    <string name="action_decoder_config">Decoder properties</string>
+    <string name="ui_hal_dump_decoder_config_title">Decoder Properties</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="label_settings">Settings</string>
+    <string name="ui_title_cfg_start_daemon_after_boot">Start daemon after boot</string>
+    <string name="ui_summary_cfg_start_daemon_after_boot">Automatically start daemon after device boots.</string>
+    <string name="ui_pref_category_general">General</string>
+    <string name="ui_title_cfg_custom_su_command">Use custom su command</string>
+    <string name="ui_pref_category_xposed">Xposed features</string>
+    <string name="ui_toast_save_error_v0s">Save error: %s</string>
+    <string name="label_about">About</string>
+    <string name="ui_summary_not_implemented">Not implemented.</string>
+    <string name="ui_toast_operation_failed">Operation failed.</string>
+    <string name="label_daemon_log">Log</string>
+    <string name="menu_nav_daemon_log">Daemon Log</string>
+    <string name="action_filter">Filter…</string>
+    <string name="title_license_notices">Licences</string>
+    <string name="title_qs_tile_switch_dc_mode" translatable="false">DimLayer HBM</string>
+</resources>

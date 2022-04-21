@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/ui_pref_category_general">
+
+        <SwitchPreferenceCompat
+            app:key="#core:cfgStartDaemonStartBoot"
+            app:summary="@string/ui_summary_cfg_start_daemon_after_boot"
+            app:title="@string/ui_title_cfg_start_daemon_after_boot" />
+
+        <EditTextPreference
+            app:key="#core:cfgCustomSuCommand"
+            app:title="@string/ui_title_cfg_custom_su_command"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/label_about">
+
+        <Preference
+            app:key="pref_open_source_licenses"
+            app:title="@string/title_license_notices" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
